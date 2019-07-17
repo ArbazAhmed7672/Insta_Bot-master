@@ -3,7 +3,9 @@ from selenium.webdriver.common import keys
 import time
 
 lst = []
+### ENTER YOUR INSTAGRAM USERNAME HERE AND THEN RUN THE FILE
 username_email = ''
+### ENTER YOUR INSTAGRAM PASSWORD HERE AND THEN RUN THE FILE
 user_password = ''
 print("PLEASE ENSURE THAT YOU HAVE A ACTIVE INTERNET CONNECTION.\nAuthenticating.......")
 
