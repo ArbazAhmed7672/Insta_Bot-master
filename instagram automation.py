@@ -5,7 +5,7 @@ import time
 lst = []
 username_email = ''
 user_password = ''
-print("PLEASE CHECK THAT YOU HAVE A ACTIVE INTERNET CONNECTION.\nAuthenticating.......")
+print("PLEASE ENSURE THAT YOU HAVE A ACTIVE INTERNET CONNECTION.\nAuthenticating.......")
 
 
 class InstaBot:
