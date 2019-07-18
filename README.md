@@ -1,5 +1,5 @@
 # Insta_Bot
-Instagram bot created with the help of python and its module selenium
+Instagram bot is created with the help of python and its module selenium.
 It automates the liking process when you give it your username and password and,
 certain hashtags which you are interested in.
 
