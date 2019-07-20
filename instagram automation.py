@@ -57,16 +57,17 @@ class InstaBot:
             except Exception as e:
                 time.sleep(20)
 
-print("for BEST hashtags search GOOGLE \nfrom our opinion here are some: \n>instagood \n>love \n>photooftheday")
-st = input("Please input your desired name or hashtag(without #) (please use best hashtags for the best results):> ")
-if len(st) >= 1:
-    lst.append(st)
-    for i in lst:
-        ls = i
-        no = InstaBot(username_email, user_password)
-        time.sleep(3)
-        no.login()
-        no.likehashtags(ls)
-else:
-    print("please enter any hashtag!!!!")
-  
+print("for BEST hashtags search GOOGLE. \nfrom our opinion here are some: \n>instagood \n>love \n>photooftheday")
+while True:
+    st = input("Please input your desired name or hashtag(without #)\n (please use best hashtags for the best results):> ")
+    if len(st) >= 1:
+        lst.append(st)
+        for i in lst:
+            ls = i
+            no = InstaBot(username_email, user_password)
+            time.sleep(3)
+            no.login()
+            no.likehashtags(ls)
+        break
+    else:
+        print("please enter any hashtag!!!!")
